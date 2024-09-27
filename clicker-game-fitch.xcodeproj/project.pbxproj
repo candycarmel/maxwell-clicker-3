@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B15FCBB2CA43DC400A47A4F /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B15FCBA2CA43DC400A47A4F /* ShopViewController.swift */; };
+		0B4717752CA5A76F002AC73F /* CoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4717742CA5A76F002AC73F /* CoolViewController.swift */; };
 		0BAE40EB2CA303C800662620 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAE40EA2CA303C800662620 /* AppDelegate.swift */; };
 		0BAE40ED2CA303C800662620 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAE40EC2CA303C800662620 /* SceneDelegate.swift */; };
 		0BAE40EF2CA303C800662620 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAE40EE2CA303C800662620 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B15FCBA2CA43DC400A47A4F /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		0B4717742CA5A76F002AC73F /* CoolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolViewController.swift; sourceTree = "<group>"; };
 		0BAE40E72CA303C800662620 /* clicker-game-fitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "clicker-game-fitch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BAE40EA2CA303C800662620 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BAE40EC2CA303C800662620 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +46,8 @@
 		0BAE40DE2CA303C800662620 = {
 			isa = PBXGroup;
 			children = (
+				0B4717742CA5A76F002AC73F /* CoolViewController.swift */,
+				0B15FCBA2CA43DC400A47A4F /* ShopViewController.swift */,
 				0BAE40E92CA303C800662620 /* clicker-game-fitch */,
 				0BAE40E82CA303C800662620 /* Products */,
 			);
@@ -143,8 +149,10 @@
 			files = (
 				0BAE40EF2CA303C800662620 /* ViewController.swift in Sources */,
 				0BAE40EB2CA303C800662620 /* AppDelegate.swift in Sources */,
+				0B15FCBB2CA43DC400A47A4F /* ShopViewController.swift in Sources */,
 				0BAE40F52CA303C800662620 /* clicker_game_fitch.xcdatamodeld in Sources */,
 				0BAE40ED2CA303C800662620 /* SceneDelegate.swift in Sources */,
+				0B4717752CA5A76F002AC73F /* CoolViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
